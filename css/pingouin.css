@@ -1,0 +1,24 @@
+body {
+    width: 400px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    width:25px;
+    height:25px;
+}
+
+.noir {
+    background-color: black;
+}
+
+.gris {
+    background-color: #333f4d;
+}
+
+.jaune {
+    background-color: #ffd480 ;
+}
