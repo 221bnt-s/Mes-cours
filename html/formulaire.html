@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body style="background-color:lemonchiffon;"> 
+    <!-- Balise form qui contiendra tous les éléments de notre formulaire -->
+    <form action="">
+        <label for="nom">Nom</label>
+        <!-- Les inputs contiendront les champs du formulaire, il en existe plusieurs types, required oblige à remplir le champ même avec plusieures tentatives -->      
+        <input type="text" id="nom" placeholder="Entrez votre nom ici" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Entrez votre e-mail ici">
+
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" placeholder="Entrez un mot de passe ici">
+
+       <label for="checkbox">Quelle destination choisissez-vous ?</label>
+       <input type="checkbox" id="france" checked><label for="france">France</label>
+       <input type="checkbox"> Italie
+       <input type="checkbox"> Suède
+
+        <label for="fruits">Quel est ton fruit préféré ?</label>
+        <input type="radio" name="fruit" value="cerise"     id="cerise">
+        <label for="cerise">Cerise</label>
+         <input type="radio" name="fruit" value="banane" id="banane">
+        <label for="banane">Banane</label>
+    <input type="radio" name="fruit" value="pasteque" id="pasteque">
+     <label for="pasteque">Pastèque</label>
+    <input type="radio" name="fruit" value="pomme" id="pomme">
+    <label for="pomme">Pomme</label>
+
+    <label for="textarea">Commentaire</label>
+    <textarea name="" id="textarea" minlength="2" maxlength="300" rows="8" cols="20" style="resize: none;"></textarea>
+
+    <label for="age">Quel est votre âge ?</label>
+    <input type="number" min="0" max="130">
+
+    <input type="submit" value="Envoyer le formulaire">
+    </form>
+
+    <input type="reset" value="Annuler">
+</body>
+</html>

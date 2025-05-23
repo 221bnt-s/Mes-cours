@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+}
+
+.images {
+    #thieboudienne {
+       img {
+        width: 300px;
+        height:250px;
+        object-fit: cover;
+       }
+
+       button {
+        background-color: antiquewhite;
+        color: black;
+        }
+    }
+
+    #yassa {
+        img {
+            width:300px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        button {
+            background-color: antiquewhite;
+            color: black;
+        }
+    }
+
+    #domoda {
+        img {
+            width:300px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        button {
+            background-color: antiquewhite;
+            color: black;
+        }
+    }
+}
+

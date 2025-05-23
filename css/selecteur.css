@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+/* Les sélecteurs */
+
+/* Sélecteurs généraux (body, p, section) = nom des balises*/
+body {
+    background-color: lightskyblue;
+    font-family: 'Playwrite HU', sans-serif;
+}
+
+p {
+    background-color: aqua;
+}
+
+/* Sélecteurs plus ciblées : ici on prend le premier p (1er enfant) direct de section */
+
+section> p:first-child {
+    background-color:darkblue;
+    text-align: left;
+    text-decoration: underline;
+}
+
+section>p:last-child {
+    background-color: aquamarine;
+    text-align: left;
+}
+
+/* nth-child() = on indique le numéro de l'élément à cibler (2=2ème élément) */
+
+section>p:nth-child(2){
+    background-color:blanchedalmond;
+}
+
+/* On cible les éléments pairs */
+
+section>p:nth-child(even) {
+    background-color:wheat ;
+}
+
+/* on cible les éléments impairs */
+
+section>p:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+/* Ici section>p:nth-child(odd) prend la priorité */
+
+section>p:nth-child(odd) {
+    background-color: burlywood;
+}
+
+/* La virgule sert à mettre plusieurs éléments qui vont recevoir le même CSS */
+h1, p {
+    color: midnightblue;
+}
+
+section>p>span {
+    /* ou section>p:first-child>span */
+    color: red;
+}
+
+h1,
+p,span {
+ /*ATTENTION: La span est demandée en général, sauf que au-dessus on cible directement avec section>span (la priorité revient à celui qui est le mieux ciblé)*/
+    color:olive;
+}
+
+/* ID, class */
+
+/* # = id */
+#test {
+    background-color: darkorchid;
+    height: 150px;
+}
+
+/* . = class */
+.rouge {
+    color: midnightblue;
+    background-color: tomato;
+    /* La class n'a pas la priorité, elle revient toujours à nth-child (odd) */
+    width:50%;
+}
+
+
+
