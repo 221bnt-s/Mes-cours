@@ -1,0 +1,39 @@
+body {
+  margin: 0; /*Espacements extérieurs à 0 */
+  padding: 0; /*Espacements intérieurs à 0 */
+  background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+/* Conteneur principal */
+
+.container {
+    width: 100%;     /* Largeur de l'élément à 100% de la page */
+    margin: 20px;    /* Une marge extérieure de TOUS les côtés (haut,droite,bas,gauche) de 20px */
+    overflow: hidden; /* Cache ce qui dépasse l'élément */
+}
+
+/* Colonne principale */
+
+.main {
+    width: 70%; /* Largeur de la div .main de 70% */
+    float: left; /* Permet de faire flotter l'élément */
+    background-color: dodgerblue;
+     /*Equivalent à 20px 20px 20px 20px*/
+}
+
+/* Barre latérale flottante */
+
+.sidebar {
+    width: 30%; /*Vu que .main a une width de 70%, on rajoute les 30% manquantes */
+    float: right;
+    background-color: hotpink;
+    
+}
+
+/* Clear pour remettre les éléments "normaux", les suivants reviendront en dessous */
+
+.clear {
+    clear: both;
+}
+
