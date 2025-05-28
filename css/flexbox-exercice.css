@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+.container1 {
+    display: flex;
+    height: 150px;
+    #div1-1 {
+        background-color: aqua;
+    }
+    #div1-2 {
+        background-color: blueviolet;
+    }
+    #div1-3 {
+        background-color: darkgreen;
+    }
+}
+
+.container2 {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    background-color: darkviolet;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    #div3-1 {
+        background-color: dimgray;
+    }
+    #div3-2 {
+        background-color: bisque;
+    }
+    #div3-3 {
+        background-color: navy;
+    }
+}
+
+.container4 {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+
+.container5 {
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.container6 {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container7 {
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+.container8 {
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.container9 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    #div9-1 {
+        align-self: center;
+    }
+}
+
+.container10 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container11 {
+    display: flex;
+    border: 1px solid black;
+    height: 150px;
+    #test {
+        flex-grow: 3;
+    }
+}
+
+.container12 {
+    display: flex;
+    border: 5px solid darkblue;
+    height:150px;
+    #test2 {
+        flex-shrink: 3;
+    }
+}
+
+.container13 {
+    display:flex;
+    border: 5px solid mediumslateblue;
+    height:150px;
+    flex-basis: 85px;
+}
+
+.container14 {
+    display: flex;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3.25px solid palevioletred;
+    height: 50px;
+}
+
+/* Note : align-items ne fonctionne QUE si on modifie la hauteur (height) */

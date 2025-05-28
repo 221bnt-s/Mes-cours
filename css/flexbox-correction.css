@@ -1,0 +1,137 @@
+div {
+    background-color:powderblue;
+    border:1px solid black;
+}
+
+/* Exercice 1 */
+#exo-1 {
+    display:flex;
+    /* flex-direction: row; */
+}
+
+/* Exercice 2 */
+#exo-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Exercice 3 */
+#exo-3 {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Exercice 4 */
+#exo-4 {
+    display:flex;
+   justify-content: center;
+}
+
+/* Exercice 5 */
+#exo-5 {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    
+}
+
+/* Exercice 6 */
+#exo-6 {
+    display: flex;
+    height: 100px;
+    justify-content: center; /*Centre horizontalement car on est en flex-direction:row */
+    align-items: center; /* Centre verticalement car on est en flex-direction:row*/
+}
+
+/* Exercice 7 */
+#exo-7 {
+    display: flex;
+    justify-content: space-around; /*Espacement égal entre les éléments, mais pas aux abords. Contrairement à justify-content:space-evenly qui lui met un espace égal AVANT, APRES et entre les éléments */
+}
+
+/* Exercice 8 */
+#exo-8 {
+    display:flex;
+    height: 100px;
+    align-items: flex-start;
+}
+
+/* Exercice 9 */
+#exo-9 {
+    display: flex;
+    height: 100px;
+
+    #self {
+        align-self: center;
+    }
+}
+
+/* Exercice 10 */
+#exo-10 {
+    display:flex;
+    flex-direction: row-reverse; /*Garde en 'row'(ligne) tout en inversant les éléments, ce qui va inverser le sens de lecture*/
+}
+
+/* Exercice 11 */
+#exo-11 {
+    display: flex;
+}
+
+#exo-11 div {
+    .t1 {
+        flex-grow: 1;
+    }
+    
+    .t2 {
+        flex-grow: 2;
+    }
+
+    .t3 {
+        flex-grow: 1;
+    }
+}
+
+/* Exercice 12 */
+#exo-12 {
+    display: flex;
+    width: 1300px;
+
+    div {
+        flex-basis: 1000px;
+    }
+    .t4 {
+        flex-shrink: 2; /*Gère la réduction de taille en fonction de la width parent (0 empêchera toute réduction de taille)*/
+    }
+}
+
+/* Exercice 13 */
+#exo-13 {
+    display: flex;
+
+    div {
+        flex-basis: 300px; /* Chaque div
+    }
+}
+
+/* Exercice 14 */
+#exo-14 {
+    display:flex;
+    width: 800px;
+
+    div {
+        width: 150px;
+    }
+
+    flex-wrap: wrap;
+}
+
+/* Exercice 15 */
+#exo-15 {
+    display: flex;
+
+    .bouton {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
