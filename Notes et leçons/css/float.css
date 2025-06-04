@@ -26,7 +26,7 @@ background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 23
 
 .sidebar {
     width: 30%; /*Vu que .main a une width de 70%, on rajoute les 30% manquantes */
-    float: right;
+    float:right;
     background-color: hotpink;
     
 }
