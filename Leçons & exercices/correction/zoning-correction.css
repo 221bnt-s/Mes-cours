@@ -1,0 +1,70 @@
+#conteneur {
+    background-color: paleturquoise;
+    width: 960px;
+    margin: 0 auto; 
+    color: white;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+header {
+    background: tan;
+    height: 60px;
+    padding-top: 6px;
+}
+
+nav {
+    background: gray;
+    height: 30px;
+    line-height: 30px;
+
+    p{
+        margin:0;
+    }
+}
+
+footer {
+    background-color: silver;
+    height: 60px;
+    line-height: 60px;
+}
+
+section {
+    height: 500px;
+    background: lightgray;
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gz {
+    border: 1px solid white;
+    width: 49.788%;
+    display: flex;
+    flex-wrap: wrap; /* Sera appliqué à pz */
+}
+
+.pz {
+    width: 49.575%;
+    border: 1px solid;
+    text-align: center;
+    align-content: center;
+}
+
+.c1 {
+    background: peachpuff;
+}
+
+.c2 {
+    background: #719eb1;
+}
+
+.c3 {
+    background-color: #415865;
+}
+
+.c4 {
+    background-color: #ffe1b3;
+}

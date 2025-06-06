@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Lexend+Deca:wght@100..900&family=Staatliches&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+nav {
+    background-color: rgb(235, 77, 77);
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    h1 {
+        font-size: 50px;
+    }
+    background-color:rgb(37, 158, 158);
+    color: white;
+    font-size: 25px;
+    text-align:center;
+    display: block;
+    padding: 60px;
+
+    button {
+        background-color:royalblue;
+        border: none;
+        color: white;
+        font-size: 20.5px;
+    }
+}
+
+.container {
+    display: flex;
+}
+ #heading-1 {
+        background-color: lightsalmon;
+        justify-content: left;
+        display: block;
+        padding: 30px;
+}
+
+    #heading-2 {
+        background-color: rgb(243, 192, 115);
+        display: block;
+        padding: 30px;
+    }
+
+    #heading-3 {
+        background-color:lightgreen;
+        display: block;
+        padding: 30px;
+    }
+
+

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Martian+Mono:wght@100..800&family=Staatliches&display=swap');
+
+* {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#contenu {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+header>h1>span {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    height: 60px;
+}
+nav {
+    text-transform: uppercase;
+    background: transparent;
+    a {
+    text-decoration: none;
+    color: black;
+
+    .icone-panier {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.lien:hover {
+    color: lightpink;
+}
+
+}
+
+section {
+    height: auto;
+    margin: 20px;
+
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+.recommandation {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+
+.voir-aussi {
+    width: 550px;
+    height:200px;
+    margin: auto;
+    border: 1px solid black;
+  
+}
+
+
+footer > nav > a {
+    font-size: 10px;
+}
+

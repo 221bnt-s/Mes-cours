@@ -1,0 +1,16 @@
+body {
+    width: auto;
+    margin: 0;
+}
+
+header, footer {
+    background-color: lightgoldenrodyellow;
+    height: 80px;
+    padding: 8px auto;
+    text-align: left;
+}
+
+section {
+    height: 700px;
+    line-height: 0;
+}
