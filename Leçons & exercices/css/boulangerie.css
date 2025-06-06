@@ -57,18 +57,25 @@ footer {
 
     button {
         background-color: rgb(204, 82, 61);
-        color: white;
         border: none;
-        border-radius: 10px;
+        border-radius: 3px;
         width: 100px;
-        height: 35px;
+       padding: 20px;
         font-size: 15px;
     }
 }
 
 .menu {
-    width: 800px;
-    
+    width: 1500px;
+    margin: auto;
+    padding: 10px;
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
 
 }
 

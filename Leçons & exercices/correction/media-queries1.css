@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #9933cc;
+    padding: 20px;
+    margin-top: 3px;
+}
+
+/* Classes pour redimensionner width */
+
+.col-50 {
+    width:50%
+}
+
+.col-25 {
+    width: 25%;
+}
+
+/* Première section */
+
+.zone1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.zone1>article li {
+    list-style-type: none;
+    color: white;
+    background-color: #33b5e5;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 3px 3px gray;
+    width: 80%;
+}
+
+h1 {
+    padding: 10px;
+}
+
+/* Les p qui se trouvent dans la 1ère div de la section */
+.zone1 >div:nth-child(2)>p {
+    width: 80%;
+    font-size: 1.2em;
+}
+
+/* La dernière div de la section */
+.zone1 > div:last-child {
+    background-color: #33b5e5;
+    color: white;
+    text-align: center;
+    padding: auto 30px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Section Zone 2 */
+.zone2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13px;
+
+    div {
+        width: 24%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+footer {
+    background-color: #33b5e5;
+    color: white;
+    padding: 30px;
+}
+
+/* Prendre plusieurs éléments en fonction d'un préfixe*/
+
+/* [class*="col-"] */
+
+@media (max-width: 768px) {
+
+    header {
+        background-color: red;
+    }
+
+    section.zone1 {
+        display: block;
+    }
+
+    section.zone1 article, section.zone1 div {
+       width: 100%;
+       margin: auto;
+    }
+
+    section.zone1 article {
+        margin-bottom: 50px;
+    }
+
+    section.zone1 article li {
+        width: 100%;
+    }
+
+    section.zone1>div:last-child {
+       padding: 15px 0;
+       margin-top: 10px;
+    }
+
+    section.zone1 > div:last-child > p, section.zone1 >div:last-child>h3 {
+        font-size: 15px;
+        padding: 0 5px;
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Section Zone 2  */
+
+    .zone2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        div {
+            width: 45%;
+            margin: 10px 0;
+        }
+    }
+
+}
+
+
+
+

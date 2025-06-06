@@ -1,0 +1,55 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: chocolate;
+    color: white;
+}
+
+header > section {
+    background-image: url(../img_boulangerie/hero.jpg);
+    background-position: center;
+    object-fit: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav li a {
+    list-style-type: none;
+}
+
+
+header > section > button {
+        background-color: rgb(204, 82, 61);
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 15px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+}
+
+footer {
+    background-color: chocolate;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+#a-propos {
+    text-align: center;
+    padding: 10px
+}
+
