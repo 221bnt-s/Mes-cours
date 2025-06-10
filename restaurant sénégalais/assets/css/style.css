@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header nav ul {
+    display: flex;
+    /* On place les éléments à droite */
+    justify-content: space-between;
+    /* On retire les points */
+    list-style-type: none;
+    /* On met de l'espacement entre les éléments */
+    gap: 20px;
+    padding: 10px;
+}
+
+/* On va s'occuper des images */
+
+#menu div {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+}
+
+#menu div div {
+    margin: 10px 0;
+    width: 300px;
+    height: auto;
+}
+
+#menu div p {
+    width: 50%;
+    position: absolute;
+    right: -150px;
+}
+#menu div div img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
