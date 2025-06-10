@@ -1,0 +1,30 @@
+.taille {
+    width: 200px;
+    height: 200px;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.bleu {
+    position: relative;
+    left: 20px;
+    background-color: aqua;
+}
+
+.noir {
+    position: relative;
+    background-color: black;
+}
+
+.marron {
+    background-color: chocolate;
+    width: 100px;
+    height:100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

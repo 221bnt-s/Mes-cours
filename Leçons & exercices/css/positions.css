@@ -1,0 +1,66 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color:hotpink;
+    margin: 20px;
+
+    /* 1ère position */
+    /* Position statique : position par défaut de chaque élément, il n'est pas impacté par le changement de position */
+    /*position: static;*/
+
+
+    /* 2ème position */
+    /* Position relative : si on ne spécifie pas de positions (top, right, bottom, left), elle restera à sa place, mais si on spécifie , elle bougera par rapport à sa position INTIALE */
+    /* position: relative; */
+    /* top: 150px; = bougera de son point le plus haut */
+
+
+    /* 3ème position */
+    /* Position absolue : se place par rapport à son parent SI ce parent a une position définie (relative, absolute, fixed, sticky MAIS non static), sinon il se placera par rapport à son body si aucun des ancêtres n'a de position. */
+
+    /* Exemple : 
+    /* .chevauche2 {
+    /* height: 400px;
+    width: 400px;
+    margin: auto;
+    /* On met notre div en position relative (se place par rapport à elle-même) */
+    /* position: relative; */
+
+    /* p {
+        /* Va se placer par rapport à .chevauche2 qui a une position relative (fonctionne avec tous les ancêtres qui ont une position (relative, absolute, fixed, sticky)) */
+        /* position:absolute;
+        top: 350px; */
+
+
+    /* 4ème position */
+    /* Position fixe: l'élément sera fixé  par rapport à la fenêtre de navigation */
+    /* Exemple :
+    
+    /* h1 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    height: 3000px;
+} */
+
+/* 5ème position  */
+/* Position collante (sticky) = hybride entre relative et fixed : l'élément reste dans le flux (à sa place) jusqu'à atteindre une distance définie (ex: top:0;), puis il se fixe à cet endroit tant que son conteneur est visible */
+
+/* Exemple: 
+#sticky {
+    height: 800px;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+} */
+
+}
+
+
+
+
