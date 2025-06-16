@@ -5,7 +5,16 @@
 }
 
 /* header */
+header {
+    padding: 30px 0;
+}
 
+header nav {
+    position: fixed;
+    z-index:1000;
+    background-color: black;
+    width: 100%;
+}
 header nav ul {
     display: flex;
     /* On place les éléments à droite */
@@ -15,6 +24,11 @@ header nav ul {
     /* On met de l'espacement entre les éléments */
     gap: 20px;
     padding: 10px;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 /* On va s'occuper des images */
@@ -34,9 +48,13 @@ header nav ul {
 }
 
 #menu div p {
+    background-color:goldenrod;
     width: 50%;
     position: absolute;
-    right: -150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+
 }
 #menu div div img {
     width: 100%;
@@ -51,6 +69,5 @@ h2 {
 p {
     text-align: justify;
 }
-
 
 
